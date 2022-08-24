@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&family=Saira+Stencil+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1 id="time" style="text-align: center;"></h1>
+<body id="body">
+    <main id="outside">
+        <main id="inside">
+            <article id="time">
+                <h1 id="setTime">23.00</h1>
+            </article>
+            <article id="date">
+                <p id="setDate">11-11-2019</p>
+            </article>
+            <article id="color">
+                <input type="color" id="setColor" onchange="getColor()">
+            </article>
+        </main>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
